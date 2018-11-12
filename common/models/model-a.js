@@ -5,7 +5,7 @@ module.exports = function(ModelA) {
 
   Model.beforeRemote('prototype.__link__modelBs__modelCs',
   	function(ctx, instance, next) {
-      console.log('DEBUG BEFORE prototype.__link__modelBs__modelCs');
+      console.log('DEBUG BEFORE ModelA.prototype.__link__modelBs__modelCs');
       next();
       return next.promise;
     });
