@@ -39,10 +39,10 @@
   },
   "ModelB": {
     "dataSource": "db",
-    "public": true
+    "public": false
   },
   "ModelC": {
     "dataSource": "db",
-    "public": true
+    "public": false
   }
 }
