@@ -1,0 +1,19 @@
+{
+  "name": "ModelA",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "modelBs": {
+      "type": "hasMany",
+      "model": "ModelB",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

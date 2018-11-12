@@ -8,7 +8,8 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "posttest": "npm run lint && nsp check"
+    "posttest": "npm run lint && nsp check",
+    "issue-4002": "node scripts/test-issue-4002.js"
   },
   "dependencies": {
     "compression": "^1.0.3",
