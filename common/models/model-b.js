@@ -8,11 +8,11 @@ module.exports = function(ModelB) {
   Model.beforeRemote('prototype.__link__modelCs',
   	function(ctx, instance, next) {
     	console.log('DEBUG BEFORE ModelB.prototype.__link__modelCs');
-      let error = new Error('')
-      error.statusCode = 401
-      error.name = 'Remote method not allowed'
-      error.message = 'Remote method not allowed'
-      error.code = 'REMOTE_METHOD_NOT_ALLOWED'
+      let error = new Error('');
+      error.statusCode = 401;
+      error.name = 'Remote method not allowed';
+      error.message = 'Remote method not allowed';
+      error.code = 'REMOTE_METHOD_NOT_ALLOWED';
     	next(error);
     	return next.promise;
   	});

@@ -7,5 +7,5 @@ request
   .put('http://localhost:3000/api/modelas/1/modelbs/1/modelcs/rel/1')
   .on('response', function(response) {
   	if (response['statusCode'] === 401)
-  		console.log('RESPONSE NOT ALLOWED')
-  })
+  		console.log('RESPONSE NOT ALLOWED');
+  });
